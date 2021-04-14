@@ -1,0 +1,21 @@
+ALGORITHM count_character 
+VAR 
+   i: INTEGER;
+   count: INTEGER:=0; 
+   text:String;
+
+BEGIN
+   text:= 'count character'
+   FOR i FROM 0 TO i< text.length   Do
+
+   IF (text[i]<> ' ') THEN
+
+   count:=count+1;
+   ENF_IF
+    
+   i:=i+1;
+    
+   END_FOR
+
+   Write(count)
+END

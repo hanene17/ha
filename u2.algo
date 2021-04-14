@@ -1,0 +1,21 @@
+ALGORITHM count_words
+VAR 
+   i: INTEGER;
+   count: INTEGER:=0;
+   CHAREND:=".";
+   text:String;
+BEGIN
+   string text := "count words.";
+
+   FOR i FROM 0 TO i<text.length   DO
+  
+   WHILE(text[i]<>CHAREND) DO
+   IF (text[i] = CHAREND) THEN
+   count:=count+1;
+   END_IF
+   i:=i+1;
+  
+   END_WHILE
+   END_FOR
+   Write(count)
+END

@@ -1,0 +1,21 @@
+ALGORITHM count_vowels
+VAR
+   i: INTEGER;
+   count: INTEGER:=0;
+   text:String;
+BEGIN 
+   text:= 'count vowels';
+
+   FOR i FROM 0 TO i<text.length   DO
+   IF text[i]=:'a' or IF text[i]=:'e' or IF text[i]=:'i' or
+   IF text[i]=:'o' or IF text[i]=:'y' or IF text[i]=:'y' THEN
+   count:= count+1 ;
+   ENF_IF
+   ENF_IF
+   ENF_IF
+   ENF_IF
+   ENF_IF
+   i:=i+1;
+   END_FOR
+   Write(count)
+END
