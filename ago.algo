@@ -1,0 +1,45 @@
+ALGORITHM count_sentence
+Var 
+   i: INTEGER;
+   count_ch: INTEGER:=0; 
+   text:String;
+   count_word: INTEGER:=0;
+   count_v INTEGER:=0;
+   CHAREND:=".";
+
+BEGIN
+   text:= 'count hhytrrds jhjug.'
+   FOR i FROM 0 TO i< text.length   Do
+
+   WHILE(text[i]<> ' ') DO
+   count_ch:=count_ch+1;
+   ELSE
+   i:=i+1;
+   END_IF
+
+
+  
+   WHILE(text[i]<> ' ' and text[i]<>CHAREND) DO
+   IF (text[i]== ' ' and text[i] = CHAREND) THEN
+   count_word:= count_word+1;
+   END_IF
+   i:=i+1;
+   END_WHILE
+
+   IF text[i]=:'a' or IF text[i]=:'e' or IF text[i]=:'i' or
+   IF text[i]=:'o' or IF text[i]=:'y' or IF text[i]=:'y' THEN
+   count:= count+1 ;
+   ENF_IF  
+   ENF_IF
+   ENF_IF
+   ENF_IF
+   ENF_IF
+   ENF_IF
+   i:=i+1;
+  
+   END_IF
+   END_FOR
+   Write (count_ch) 
+   Write(count_word)
+   Write(count_v) 
+END
