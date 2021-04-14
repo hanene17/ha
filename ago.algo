@@ -8,8 +8,8 @@ Var
    CHAREND:=".";
 
 BEGIN
-   text:= 'count hhytrrds jhjug.'
-   FOR i FROM 0 TO i< text.length   Do
+   text:= 'count hhytrrds jhjug.' ;
+  
 
    WHILE(text[i]<> ' ') DO
    count_ch:=count_ch+1;
